@@ -6,6 +6,7 @@ export class LandingInfoBoxOne extends React.Component{
     render = () => {
         return (
            <>
+           <p>This is the landing!</p>
            </>
         );
     }

@@ -11,7 +11,7 @@ export const Main = () => (
     <Routes>
       <Route path='/home' element={<HomePage/>}></Route>
       <Route path='/login' element={<LoginPage/>}></Route>
-      <Route path='' element={<LandingPage/>}></Route>
+      <Route path='/' element={<LandingPage/>}></Route>
       <Route path='/register' element={<RegisterPage/>}></Route>
     </Routes>
   );
