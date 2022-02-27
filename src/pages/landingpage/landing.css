@@ -1,9 +1,9 @@
 html{
-    box-sizing: flex;
-    background-color: aqua;
-  }
+  box-sizing: flex;
+  background-color: aqua;
+}
 
-  .landingpage{
-    display: flex;
-  }
-  
+.landingpage{
+  display: flexbox;
+  width: 100%;
+}

@@ -6,9 +6,9 @@ export class FooterCompoent extends React.Component {
     render = () => {
         return(
             <>
-            <Card variant='dark' className="footerCard">
+            <footer>
                 <Card.Body>This is the footer com</Card.Body>
-            </Card>
+            </footer>
             </>
         );
     }

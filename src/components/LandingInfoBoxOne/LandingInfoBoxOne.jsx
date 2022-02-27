@@ -12,7 +12,7 @@ export class LandingInfoBoxOne extends React.Component{
         return (
            <>
            <div className="parentCardGroup">
-                <Card className="childCardOne">
+                <Card className="childCardOne" onClick={event =>  window.location.href='/'}>
                     <GiBee className="card_img"/>
                     <h2 className="prodName">Connect</h2>
                 </Card>

@@ -1,0 +1,13 @@
+html{
+    box-sizing: flex;
+    background-color: white;
+}
+
+.helpComponentParent{
+    margin: 30px;
+    display: flex;
+    color: beige;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
