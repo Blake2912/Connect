@@ -5,6 +5,7 @@ import { LandingPage } from './pages/landingpage/landing';
 import { LoginPage } from "./pages/login/login"
 import { RegisterPage } from './pages/register/register';
 import { Info } from './pages/infopage/Info';
+import { HelpPage } from './pages/helppage/helppage';
 
 
 
@@ -15,5 +16,6 @@ export const Main = () => (
       <Route path='/' element={<LandingPage/>}></Route>
       <Route path='/register' element={<RegisterPage/>}></Route>
       <Route path='/info' element={<Info/>}></Route>
+      <Route path='/help' element={<HelpPage/>}></Route>
     </Routes>
   );

@@ -1,6 +1,12 @@
 .footerCard{
-    display: flex;
-    background-color: darkslategrey;
-    color: wheat;
-    margin-top: 15px;
+    display: contents;
+    bottom: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .footerCard {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
