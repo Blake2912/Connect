@@ -9,9 +9,9 @@ import { RegisterPage } from '../../pages/register/register';
 
 export const Main = () => (
     <Routes>
-      <Route path='/home' element={<HomePage/>}></Route>
-      <Route path='/login' element={<LoginPage/>}></Route>
-      <Route path='/' element={<LandingPage/>}></Route>
-      <Route path='/register' element={<RegisterPage/>}></Route>
+      <Route path='Connect/home' element={<HomePage/>}></Route>
+      <Route path='Connect/login' element={<LoginPage/>}></Route>
+      <Route path='Connect/' element={<LandingPage/>}></Route>
+      <Route path='Connect/register' element={<RegisterPage/>}></Route>
     </Routes>
   );
