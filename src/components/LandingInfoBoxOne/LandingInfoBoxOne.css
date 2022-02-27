@@ -1,0 +1,73 @@
+.card_img{
+    display: contents;
+    width: 150px;
+    height: 150px;
+    color: yellowgreen;
+
+}
+
+.parentCardGroup{
+    box-sizing: border-box;
+    display: flex;
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .card.childCardOne {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+@media screen and (max-width: 400px) {
+    .card.childCardTwo {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+}
+
+.card.childCardOne{
+    width: 55%;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 15%;
+    padding: 10px;
+    border-width: 0px;
+    align-self: auto;
+}
+
+.card.childCardTwo{
+    display: flex;
+    width: 55%;
+    float: left;
+    box-sizing: border-box;
+    height: 100%;
+    margin-right: 5px;
+    margin-top: 15%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 30px;
+    color: white;
+    border-color: gray;
+    background-color: aqua;
+    border-width: 0px;
+}
+
+.prodName{
+    display: flex;
+    color: yellowgreen;
+    align-self: center;
+    font-weight: bold;
+}
+
+.prodName1{
+    display: flex;
+    color: yellowgreen;
+    align-self: center;
+    font-weight: bold;
+}

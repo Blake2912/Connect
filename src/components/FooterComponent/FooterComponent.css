@@ -1,0 +1,6 @@
+.footerCard{
+    display: flex;
+    background-color: darkslategrey;
+    color: wheat;
+    margin-top: 15px;
+}

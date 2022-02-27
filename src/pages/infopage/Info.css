@@ -1,9 +1,4 @@
 html{
     box-sizing: flex;
     background-color: aqua;
-  }
-
-  .landingpage{
-    display: flex;
-  }
-  
+}

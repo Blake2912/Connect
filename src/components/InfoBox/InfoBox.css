@@ -1,0 +1,34 @@
+html{
+    box-sizing: flex;
+    background-color: white;
+}
+
+
+.infoComponentParent{
+    margin: 20px;
+    color: beige;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.websiteName{
+    align-self: center;
+    color: white;
+    font-weight: bold;
+}
+
+.featureList{
+    align-self: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.card_img{
+    display: flex;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    color: yellowgreen;
+    margin: 10px;
+}
